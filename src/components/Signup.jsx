@@ -1,21 +1,50 @@
 import React from 'react'
 
 const Signup = () => {
-    return (
-        <div className="min-h-screen flex items-center justify-center bg-gray-100">
-            <form className="bg-white text-gray-500 w-full max-w-[340px] mx-4 md:p-6 p-4 py-8 text-left text-sm rounded-lg shadow-[0px_0px_10px_0px] shadow-black/10">
-                <h2 className="text-2xl font-bold mb-6 text-center text-gray-800">Sign Up</h2>
+  return (
+    <div>
+        <div class="max-w-4xl max-sm:max-w-lg mx-auto p-6 mt-6">
+      <div class="text-center mb-12 sm:mb-16">
+        <h4 class="text-slate-600 text-base mt-6">Sign up into your account</h4>
+      </div>
 
-                <input className="w-full border mt-1 bg-indigo-500/5 mb-2 border-gray-500/10 outline-none rounded py-2.5 px-3" type="text" placeholder="Username" required />
-                <input className="w-full border mt-1 bg-indigo-500/5 mb-2 border-gray-500/10 outline-none rounded py-2.5 px-3" type="email" placeholder="Email" required />
-                <input className="w-full border mt-1 bg-indigo-500/5 mb-7 border-gray-500/10 outline-none rounded py-2.5 px-3" type="password" placeholder="Password" required />
-
-                <button className="w-full mb-3 bg-indigo-500 hover:bg-indigo-600 transition-all active:scale-95 py-2.5 rounded text-white font-medium">Create Account</button>
-
-                <p className="text-center mt-4">Already have an account? <a href="#" className="text-blue-500 underline">Log In</a></p>
-            </form>
+      <form>
+        <div class="grid sm:grid-cols-2 gap-8">
+          <div>
+            <label class="text-slate-800 text-sm font-medium mb-2 block">First Name</label>
+            <input name="name" type="text" class="bg-slate-100 w-full text-slate-800 text-sm px-4 py-3 rounded focus:bg-transparent outline-blue-500 transition-all" placeholder="Enter name" />
+          </div>
+          <div>
+            <label class="text-slate-800 text-sm font-medium mb-2 block">Last Name</label>
+            <input name="lname" type="text" class="bg-slate-100 w-full text-slate-800 text-sm px-4 py-3 rounded focus:bg-transparent outline-blue-500 transition-all" placeholder="Enter last name" />
+          </div>
+          <div>
+            <label class="text-slate-800 text-sm font-medium mb-2 block">Email Id</label>
+            <input name="email" type="text" class="bg-slate-100 w-full text-slate-800 text-sm px-4 py-3 rounded focus:bg-transparent outline-blue-500 transition-all" placeholder="Enter email" />
+          </div>
+          <div>
+            <label class="text-slate-800 text-sm font-medium mb-2 block">Mobile No.</label>
+            <input name="number" type="number" class="bg-slate-100 w-full text-slate-800 text-sm px-4 py-3 rounded focus:bg-transparent outline-blue-500 transition-all" placeholder="Enter mobile number" />
+          </div>
+          <div>
+            <label class="text-slate-800 text-sm font-medium mb-2 block">Password</label>
+            <input name="password" type="password" class="bg-slate-100 w-full text-slate-800 text-sm px-4 py-3 rounded focus:bg-transparent outline-blue-500 transition-all" placeholder="Enter password" />
+          </div>
+          <div>
+            <label class="text-slate-800 text-sm font-medium mb-2 block">Confirm Password</label>
+            <input name="cpassword" type="password" class="bg-slate-100 w-full text-slate-800 text-sm px-4 py-3 rounded focus:bg-transparent outline-blue-500 transition-all" placeholder="Enter confirm password" />
+          </div>
         </div>
-    )
+
+        <div class="mt-12">
+          <button type="button" class="mx-auto block py-3 px-6 text-sm font-medium tracking-wider rounded text-white bg-blue-600 hover:bg-blue-700 focus:outline-none">
+            Sign up
+          </button>
+        </div>
+      </form>
+    </div>
+    </div>
+  )
 }
 
 export default Signup
