@@ -11,15 +11,16 @@ import ContactPage from './pages/ContactPage'
 import ProductPage from './pages/ProductPage'
 import ProductviewPage from './pages/ProductviewPage'
 import CartPage from './pages/CartPage'
-import MainBanner from './components/MainBanner'
 import LandingPage from './pages/LandingPage'
 
 
+
+
 const App = () => {
+  
   return (
     <div>
       <Navbar />
-      <MainBanner/>
       <div>
         <Routes>
           <Route path='/' element={<Home/>}/>
@@ -34,7 +35,7 @@ const App = () => {
           <Route path='/landingpage' element={<LandingPage/>}/>
         </Routes>
       </div>
-      <Footer />
+      <Footer/>
     </div>
   )
 }

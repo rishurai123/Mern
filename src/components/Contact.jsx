@@ -2,7 +2,48 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div>
+
+        <div  className="min-h-screen bg-black relative overflow-hidden">
+            <div className="absolute inset-0 overflow-hidden">
+               
+                <div className="absolute h-1 w-1 rounded-full bg-white top-20 left-1/4"></div>
+                <div className="absolute h-1 w-1 rounded-full bg-white top-40 left-10"></div>
+                <div className="absolute h-1 w-1 rounded-full bg-white top-60 left-3/4"></div>
+                <div className="absolute h-1 w-1 rounded-full bg-white top-80 left-1/2"></div>
+                <div className="absolute h-1 w-1 rounded-full bg-white top-96 left-1/3"></div>
+                <div className="absolute h-1 w-1 rounded-full bg-white top-10 left-2/3"></div>
+                <div className="absolute h-1 w-1 rounded-full bg-white top-36 left-3/5"></div>
+                <div className="absolute h-1 w-1 rounded-full bg-white top-72 left-1/5"></div>
+                <div className="absolute h-1 w-1 rounded-full bg-white top-56 right-24"></div>
+                <div className="absolute h-1 w-1 rounded-full bg-white bottom-20 right-40"></div>
+
+                
+                <div className="absolute h-0.5 w-0.5 rounded-full bg-white top-16 left-1/3"></div>
+                <div className="absolute h-0.5 w-0.5 rounded-full bg-white top-32 left-1/6"></div>
+                <div className="absolute h-0.5 w-0.5 rounded-full bg-white top-48 left-3/5"></div>
+                <div className="absolute h-0.5 w-0.5 rounded-full bg-white top-64 left-4/5"></div>
+                <div className="absolute h-0.5 w-0.5 rounded-full bg-white top-80 left-1/4"></div>
+                <div className="absolute h-0.5 w-0.5 rounded-full bg-white top-96 left-2/3"></div>
+                <div className="absolute h-0.5 w-0.5 rounded-full bg-white top-24 right-1/4"></div>
+                <div className="absolute h-0.5 w-0.5 rounded-full bg-white top-52 right-1/6"></div>
+                <div className="absolute h-0.5 w-0.5 rounded-full bg-white top-72 right-2/5"></div>
+                <div className="absolute h-0.5 w-0.5 rounded-full bg-white bottom-10 right-1/3"></div>
+
+                
+                <div className="absolute h-px w-px rounded-full bg-white/70 top-12 left-20"></div>
+                <div className="absolute h-px w-px rounded-full bg-white/70 top-28 left-40"></div>
+                <div className="absolute h-px w-px rounded-full bg-white/70 top-44 left-60"></div>
+                <div className="absolute h-px w-px rounded-full bg-white/70 top-60 left-80"></div>
+                <div className="absolute h-px w-px rounded-full bg-white/70 top-76 left-1/8"></div>
+                <div className="absolute h-px w-px rounded-full bg-white/70 top-92 left-3/8"></div>
+                <div className="absolute h-px w-px rounded-full bg-white/70 top-8 right-20"></div>
+                <div className="absolute h-px w-px rounded-full bg-white/70 top-24 right-40"></div>
+                <div className="absolute h-px w-px rounded-full bg-white/70 top-40 right-60"></div>
+                <div className="absolute h-px w-px rounded-full bg-white/70 bottom-20 left-24"></div>
+                <div className="absolute h-px w-px rounded-full bg-white/70 bottom-36 left-44"></div>
+                <div className="absolute h-px w-px rounded-full bg-white/70 bottom-52 left-64"></div>
+                <div className="absolute h-px w-px rounded-full bg-white/70 bottom-68 left-84"></div>
+            </div>
             <div class="mt-6">
                 <div class="grid sm:grid-cols-2 items-start gap-12 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md">
                     <div>
