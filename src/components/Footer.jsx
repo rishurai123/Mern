@@ -1,4 +1,6 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+import logo from '../assets/logo.png';
 
 const Footer = () => {
     const linkSections = [
@@ -15,12 +17,18 @@ const Footer = () => {
             links: ["Instagram", "Twitter", "Facebook", "YouTube"]
         }
     ];
-    
+
     return (
         <div className="px-6 md:px-16 lg:px-24 xl:px-32">
             <div className="flex flex-col md:flex-row items-start justify-between gap-10 py-10 border-b border-gray-500/30 text-gray-500">
                 <div>
-                    <img className="w-34 md:w-32" src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/dummyLogo/dummyLogoColored.svg" alt="dummyLogoColored" />
+                    <NavLink to="/" className="flex items-center">
+                        <img
+                            src={logo}
+                            alt="Site Logo"
+                            className="h-20 w-auto object-contain transition-transform duration-200 hover:scale-105"
+                        />
+                    </NavLink>
                     <p className="max-w-[410px] mt-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum unde quaerat eveniet cumque accusamus atque qui error quo enim fugiat?</p>
                 </div>
                 <div className="flex flex-wrap justify-between w-full md:w-[45%] gap-5">
@@ -39,7 +47,7 @@ const Footer = () => {
                 </div>
             </div>
             <p className="py-4 text-center text-sm md:text-base text-gray-500/80">
-                Copyright 2025 © PrebuiltUI All Right Reserved.
+                Copyright 2025 © Mern Dev.
             </p>
         </div>
     );
