@@ -47,7 +47,7 @@ const Product = () => {
 
       {/* Content container with added padding to look better against the starry background */}
       <div className="relative p-6 mx-auto lg:max-w-6xl md:max-w-4xl">
-        <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 sm:mb-8">Premium Threads</h2>
+        <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 sm:mb-8">Products</h2>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
           <div className="bg-white flex flex-col rounded overflow-hidden shadow-md hover:scale-[1.01] transition-all relative">

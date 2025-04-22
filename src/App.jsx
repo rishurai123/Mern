@@ -11,7 +11,7 @@ import ContactPage from './pages/ContactPage'
 import ProductPage from './pages/ProductPage'
 import ProductviewPage from './pages/ProductviewPage'
 import CartPage from './pages/CartPage'
-import LandingPage from './pages/LandingPage'
+
 
 
 
@@ -32,7 +32,7 @@ const App = () => {
           <Route path='/product' element={<ProductPage/>}/>
           <Route path='/product/:id' element={<ProductviewPage/>}/>
           <Route path='/cart'element={<CartPage/>}/>
-          <Route path='/landingpage' element={<LandingPage/>}/>
+         
         </Routes>
       </div>
       <Footer/>

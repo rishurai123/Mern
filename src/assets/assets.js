@@ -25,13 +25,7 @@ import main_banner_bg_sm from "./main_banner_bg_sm.png";
 import bottom_banner_image from "./bottom_banner_image.png";
 import bottom_banner_image_sm from "./bottom_banner_image_sm.png";
 import add_address_iamge from "./add_address_image.svg";
-import organic_vegitable_image from "./organic_vegitable_image.png";
-import fresh_fruits_image from "./fresh_fruits_image.png";
-import bottles_image from "./bottles_image.png";
 import maggi_image from "./maggi_image.png";
-import dairy_product_image from "./dairy_product_image.png";
-import bakery_image from "./bakery_image.png";
-import grain_image from "./grain_image.png";
 import potato_image_1 from "./potato_image_1.png";
 import potato_image_2 from "./potato_image_2.png";
 import potato_image_3 from "./potato_image_3.png";
@@ -69,6 +63,13 @@ import vanilla_muffins_image from "./vanilla_muffins_image.png";
 import quinoa_image from "./quinoa_image.png";
 import brown_rice_image from "./brown_rice_image.png";
 import barley_image from "./barley_image.png";
+import Dress from "./Dress.png";
+import T_Shirt from "./T_Shirt.png";
+import DC_Jocker from "./DC_Jocker.png";
+import Marvel from "./Marvel.png";
+import Dead_Pool from "./Dead_Pool.png";
+import DC from "./DC.png";
+import The_Boys from "./The_Boys.png";
 
 export const assets = {
   logo,
@@ -102,47 +103,47 @@ export const assets = {
 
 export const categories = [
   {
-    text: "Organic veggies",
-    path: "Vegetables",
-    image: organic_vegitable_image,
-    bgColor: "#FEF6DA",
+    text: "Anime T-Shirts",
+    path: "Anime",
+    image: T_Shirt,
+    bgColor: "#808080",
   },
   {
-    text: "Fresh Fruits",
-    path: "Fruits",
-    image: fresh_fruits_image,
-    bgColor: "#FEE0E0",
-  },
-  {
-    text: "Cold Drinks",
-    path: "Drinks",
-    image: bottles_image,
+    text: "DC Merchandise",
+    path: "DC Merch",
+    image: DC_Jocker,
     bgColor: "#F0F5DE",
   },
   {
-    text: "Instant Food",
-    path: "Instant",
-    image: maggi_image,
-    bgColor: "#E1F5EC",
+    text: "DC T-Shirts",
+    path: "DC Merch",
+    image: DC,
+    bgColor: "#F0F5DE",
   },
   {
-    text: "Dairy Products",
-    path: "Dairy",
-    image: dairy_product_image,
-    bgColor: "#FEE6CD",
+    text: "Marvel Merchandise",
+    path: "Marvel",
+    image: Marvel,
+    bgColor: "#F0F5DE",
   },
   {
-    text: "Bakery & Breads",
-    path: "Bakery",
-    image: bakery_image,
-    bgColor: "#E0F6FE",
+    text: "Marvel T-Shirts",
+    path: "Marvel",
+    image: Dead_Pool,
+    bgColor: "#F0F5DE",
   },
   {
-    text: "Grains & Cereals",
-    path: "Grains",
-    image: grain_image,
-    bgColor: "#F1E3F9",
+    text: "The Boys Merchandise",
+    path: "TheBoys",
+    image: The_Boys,
+    bgColor: "#F0F5DE",
   },
+  {
+    text: "Anime Merchandise",
+    path: "Anime",
+    image: Dress,
+    bgColor: "#808080",
+  }
 ];
 
 export const footerLinks = [
